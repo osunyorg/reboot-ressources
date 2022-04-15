@@ -32,8 +32,8 @@ a{
   }
   p {
     margin:0;
-      padding:0;
-      align-self: start;
+    padding:0;
+    align-self: start;
   }
 }
 .results-container{
@@ -98,4 +98,16 @@ a{
   li{
     list-style: none;
   }
+}
+h5{
+  font-size: 21px;
+}
+.card-img{
+  width: 350px;
+}
+.link-ressource{
+  color: #7FC295 !important;
+  font-size: 1.5rem;
+  float: right;
+  align-self: flex-end;
 }
