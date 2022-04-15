@@ -1,6 +1,6 @@
 languageCode: 'fr-FR'
-title: 'Annuaire Reboot'
+title: 'Ressources Reboot'
 taxonomies:
-  region: 'regions'
-  domain: 'domains'
+  subject: 'subjects'
+  type: 'types'
 paginate : 6

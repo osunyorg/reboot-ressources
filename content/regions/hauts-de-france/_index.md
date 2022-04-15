@@ -1,3 +1,0 @@
----
-title: Hauts-de-France
----

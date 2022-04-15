@@ -1,3 +1,0 @@
----
-title: Île-de-France
----
