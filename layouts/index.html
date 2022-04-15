@@ -37,14 +37,14 @@
               <img src="/assets/images/ressources/{{ .Params.image }}" alt="" class="card-img">
               <h5>{{ .Params.title }}</h5> 
               <ul class="domains custom-ul">
-                {{ range .GetTerms "subjects" }}
+                {{ range .GetTerms "types" }}
                 <li>
-                  <small class="dot green-dot">
+                  <small>
                     {{ .Title }}
                   </small>
                 </li>
                 {{ end }}
-                {{ range .GetTerms "types" }}
+                {{ range .GetTerms "subjects" }}
                 <li>
                   <small class="dot green-dot">
                     {{ .Title }}
