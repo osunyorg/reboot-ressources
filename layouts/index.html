@@ -16,7 +16,7 @@
         </p>
         <ul>
           {{ range .Site.Taxonomies.subjects }}
-          <li><a href="{{ .Page.Permalink }}"><small class="dot green-dot">{{ .Page.Title }}</small></a></li>
+          <li><a href="{{ .Page.Permalink }}"><small class="dot pink-dot">{{ .Page.Title }}</small></a></li>
           {{ end }}
         </ul>
         <p>
@@ -46,7 +46,7 @@
                 {{ end }}
                 {{ range .GetTerms "subjects" }}
                 <li>
-                  <small class="dot green-dot">
+                  <small class="dot pink-dot">
                     {{ .Title }}
                   </small>
                 </li>
