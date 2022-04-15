@@ -5,6 +5,6 @@ description: Aujourd’hui, les communicant.e.s le savent, ils.elles assument un
 subjects:
 - communication
 types:
-- platformes
+- plateformes
 link: https://www.com-ent.fr/brain-center/editions-com-ent/kit-pour-une-communication-non-sexiste/
 ---

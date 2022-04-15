@@ -13,11 +13,12 @@
       <div class="tags">
         <p>
           Sujets
-        </p>
+        </p>  
         <ul>
-          {{ range .Site.Taxonomies.subjects }}
-          <li><a href="{{ .Page.Permalink }}"><small class="dot pink-dot">{{ .Page.Title }}</small></a></li>
-          {{ end }}
+          <li><a href="/subjects/communication"><small class="dot pink-dot">Communication</small></a></li>
+          <li><a href="/subjects/accessibilite"><small  class="dot yellow-dot">Accessibilité</small></a></li>
+          <li><a href="/subjects/developpement-durable"><small class="dot green-dot">Développement durable</small></a></li>
+          <li><a href="/subjects/numerique-responsable"><small class="dot blue-dot">Numérique responsable</small></a></li>
         </ul>
         <p>
           Types
@@ -45,6 +46,7 @@
                 {{ end }}
                 {{ range .GetTerms "subjects" }}
                 <li>
+                  {{/*  {{ if .GetTerms "subjects" }}  */}}
                   <small class="dot pink-dot">
                     {{ .Title }}
                   </small>
