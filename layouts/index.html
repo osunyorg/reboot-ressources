@@ -52,7 +52,13 @@
                 {{ end }}
               </ul> 
               <small>{{- .Params.description -}}</small>
-              <a href="{{ .Params.link }}" target="_blank" class="link-ressource">Revoir le live</a>
+              <a href="{{ .Params.link }}" target="_blank" class="link-ressource">
+                {{ if eq .Params.types "conference-reboot"}}
+                Revoir le live
+                {{ else }}
+                Accéder à la ressource
+                {{end}}
+              </a>
           </div>
           {{- end -}}
         </div>
