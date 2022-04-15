@@ -6,7 +6,7 @@
       <nav aria-label="Fil d’arianne">
         <ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">
           <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-            <a href="/static" itemprop="item">
+            <a href="/" itemprop="item">
               <span itemprop="name">Accueil</span>
               <meta content="1" itemprop="position">
             </a>
@@ -25,28 +25,65 @@
   <div class="container">
     <section>
       <div class="results-container">
-        <p>{{ len .Pages }} résultats</p>
+         <p>{{ len .Pages }} résultats</p>
         <div class="card-container">
-          {{- range .Pages -}}
-          <div class="card">
-            <a class="speaker-card" href="{{ .Permalink }}">
-              <h3>{{- .Params.title }}</h3>
-              <p>{{- .Params.description -}}</p>
-              <small class="place">{{- range .GetTerms "regions" -}}{{ .Title }}{{ end }}</small>
-              <small class="computer">{{- .Params.remote -}}</small>
+          {{- range .Paginator.Pages -}}
+          <div class="ressources-card">
+              <img src="/assets/images/ressources/{{ .Params.image }}" alt="" class="card-img">
+              <h5>{{ .Params.title }}</h5>
               <ul class="domains custom-ul">
-                {{ range .GetTerms "domains" }}
+                {{ range .GetTerms "types" }}
+                <li>
+                  <small>
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ range .GetTerms "subjects" }}
+                {{ if eq .Title "Communication" }}
+                <li>
+                  <small class="dot pink-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ if eq .Title "Accessibilité" }}
+                <li>
+                  <small class="dot yellow-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ if eq .Title "Développement durable" }}
                 <li>
                   <small class="dot green-dot">
                     {{ .Title }}
                   </small>
                 </li>
                 {{ end }}
-              </ul>
-            </a>
+                {{ if eq .Title "Numérique responsable" }}
+                <li>
+                  <small class="dot blue-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ end }}
+              </ul> 
+              <small>{{- .Params.description -}}</small>
+              <a href="{{ .Params.link }}" target="_blank" class="link-ressource">
+                {{ range .GetTerms "Types" }}
+                {{ if eq .Title "Conférence Reboot!"}}
+                Revoir le live
+                {{ else }}
+                Accéder à la ressource
+                {{end}}
+                {{ end }}
+              </a>
           </div>
           {{- end -}}
         </div>
+        {{ partial "pagination"  . }}
       </div>
     </section>
   </div>

@@ -45,21 +45,45 @@
                 </li>
                 {{ end }}
                 {{ range .GetTerms "subjects" }}
+                {{ if eq .Title "Communication" }}
                 <li>
-                  {{/*  {{ if .GetTerms "subjects" }}  */}}
                   <small class="dot pink-dot">
                     {{ .Title }}
                   </small>
                 </li>
                 {{ end }}
+                {{ if eq .Title "Accessibilité" }}
+                <li>
+                  <small class="dot yellow-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ if eq .Title "Développement durable" }}
+                <li>
+                  <small class="dot green-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ if eq .Title "Numérique responsable" }}
+                <li>
+                  <small class="dot blue-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+                {{ end }}
               </ul> 
               <small>{{- .Params.description -}}</small>
               <a href="{{ .Params.link }}" target="_blank" class="link-ressource">
-                {{ if eq .Params.types "conference-reboot"}}
+                {{ range .GetTerms "Types" }}
+                {{ if eq .Title "Conférence Reboot!"}}
                 Revoir le live
                 {{ else }}
                 Accéder à la ressource
                 {{end}}
+                {{ end }}
               </a>
           </div>
           {{- end -}}
