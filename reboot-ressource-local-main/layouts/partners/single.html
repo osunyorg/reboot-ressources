@@ -1,0 +1,90 @@
+{{- define "main" -}}
+<header class="hero">
+  <div class="container">
+    <h1>{{- .Title -}}</h1>
+    <nav aria-label="Fil d’arianne">
+      <ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item">
+            <span itemprop="name">Accueil</span>
+            <meta content="1" itemprop="position">
+          </a>
+        </li>
+        <li class="breadcrumb-item active" itemprop="itemListElement" itemscope=""
+            itemtype="https://schema.org/ListItem">
+          <span itemprop="name">{{ .Title }}</span>
+          <meta content="2" itemprop="position">
+        </li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<div class="container container_partner">
+  {{ if .Params.description }}
+  <h5>{{ .Params.description }}</h5>
+  {{ end }} 
+  <div class="container_partner_info">
+    {{ if not ( in .Params.regions "Sélectionnez une région") }}
+    <div class="region">
+      <small>Région</small>
+      {{ range .GetTerms "regions" }}
+      <p class="place">
+        <a href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ if .Params.domains }}
+    <small>Domaines</small>
+    <ul class="domains custom-ul">
+      {{ range .GetTerms "domains" }}
+      <li >
+        <p >
+          <a href="{{ .Permalink }}" class="dot green-dot">
+            {{ .Title }}
+          </a>
+        </p>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    <div class="distanciel">
+      <small>Distanciel</small>
+      <p class="computer">{{ .Params.remote }}</p>
+    </div>
+    {{ if .Params.phone}}
+    <div class="phone link">
+      <small>Téléphone</small>
+      <p>{{ .Params.phone }} <a href="tel:{{ .Params.phone }}">Appeler</a></p>
+    </div>
+    {{ end }}
+    <div class="mail link">
+      <small>Email</small>
+      <p>{{ .Params.email }} <a href="mailto:{{ .Params.email }}">Envoyer un mail</a></p>
+    </div>
+    {{ if .Params.linkedin }}
+    <div class="linkedin link">
+      <small>LinkedIn</small>
+      <p><a href="{{ .Params.linkedin }}" target="_blank">{{
+        .Params.linkedin }}</a></p>
+    </div>
+    {{ end }}
+    {{ if .Params.website }}
+    <div class="site link">
+      <small>Site</small>
+      <p><a href="{{ .Params.website }}" target="_blank">{{
+        .Params.website }}</a></p>
+    </div>
+    {{ end }}
+  </div>
+  {{ if .Params.conditions }}
+  <div class="volunteer">
+    <p>Conditions pour une intervention bénévole</p>
+    <small>{{ .Params.conditions }}</small>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

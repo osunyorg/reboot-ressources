@@ -1,0 +1,54 @@
+{{- define "main" -}}
+<main>
+  <header class="hero">
+    <div class="container">
+      <h1>{{- .Title -}}</h1>
+      <nav aria-label="Fil d’arianne">
+        <ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+          <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item">
+              <span itemprop="name">Accueil</span>
+              <meta content="1" itemprop="position">
+            </a>
+          </li>
+          <li class="breadcrumb-item active" itemprop="itemListElement" itemscope=""
+              itemtype="https://schema.org/ListItem">
+              <span itemprop="name">
+                {{- .Title -}}
+              </span>
+            <meta content="2" itemprop="position">
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section>
+      <div class="results-container">
+        <p>{{ len .Pages }} résultats</p>
+        <div class="card-container">
+          {{- range .Pages -}}
+          <div class="card">
+            <a class="speaker-card" href="{{ .Permalink }}">
+              <h3>{{- .Params.title }}</h3>
+              <p>{{- .Params.description -}}</p>
+              <small class="place">{{- range .GetTerms "regions" -}}{{ .Title }}{{ end }}</small>
+              <small class="computer">{{- .Params.remote -}}</small>
+              <ul class="domains custom-ul">
+                {{ range .GetTerms "domains" }}
+                <li>
+                  <small class="dot green-dot">
+                    {{ .Title }}
+                  </small>
+                </li>
+                {{ end }}
+              </ul>
+            </a>
+          </div>
+          {{- end -}}
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+{{- end -}}
