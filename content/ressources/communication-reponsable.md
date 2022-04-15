@@ -1,10 +1,10 @@
 ---
-title: cours de communication responsable
-image: img1.png
-description: Un cours en ligne gratuit sur la communication responsable. Etudiants en écoles de communication, de publicité et de marketing.
+title: Le site de la communication responsable
+image: ademe-site-communication-responsable.jpg
+description: Ce site de l'ADEME, l'Agence de la transition écologique, est dédié aux professionnels de la communication qui souhaitent intégrer les questions de développement durable dans leur stratégie de comm...
 subjects:
 - communication
 types:
 - outils
-link: https://www.google.fr
+link: https://communication-responsable.ademe.fr/
 ---
