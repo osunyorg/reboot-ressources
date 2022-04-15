@@ -33,7 +33,6 @@
         <div class="card-container">
           {{- range .Paginator.Pages -}}
           <div class="card">
-            <a class="speaker-card" href="{{ .Permalink }}">
               <img src="/assets/images/ressources/{{ .Params.image }}" alt="" class="card-img">
               <h5>{{ .Params.title }}</h5>
               <ul class="domains custom-ul">
@@ -54,7 +53,6 @@
               </ul> 
               <small>{{- .Params.description -}}</small>
               <a href="{{ .Params.link }}" target="_blank" class="link-ressource">Revoir le live</a>
-            </a>
           </div>
           {{- end -}}
         </div>
