@@ -43,12 +43,16 @@ a{
   }
 }
 .card-container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4rem 2rem;
-  @media(max-width: 768px){
-      grid-template-columns: 1fr;
-  }
+  column-count: 3;
+  column-gap: 1rem;
+    column-width: 350px;
+    > * {
+        break-inside: avoid;
+        margin: auto;
+    }
+    @media(max-width: 768px){
+        column-count: 1;
+    }
   .speaker-card{
       display:flex;
       flex-direction:column;

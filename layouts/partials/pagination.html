@@ -1,18 +1,18 @@
 {{ if eq .Paginator.TotalPages 1 }}
-{{else }}
+{{ else }}
 	<div class="pagination">
 		<div class="paginator-page">
 			<p>Page {{ .Paginator.PageNumber }} - 6 résultats par page</p>
 		</div>
 		<div class="pagination-buttons">
 			{{ if eq .Paginator.PageNumber 1 2 }}
-			{{else }}
+			{{ else }}
 				<a href="{{ .Paginator.First.URL }}">{{ .Paginator.First.PageNumber }}</a>
 			{{ end }}
 
 			{{ if .Paginator.HasPrev }}
 				{{ if eq .Paginator.PageNumber 2 }}
-				{{else }}
+				{{ else }}
 					<p>-</p>
 				{{ end }}
 				<a href="{{ .Paginator.Prev.URL }}">{{ .Paginator.Prev.PageNumber }}</a>
@@ -25,7 +25,7 @@
 				<p>-</p>
 				<a href="{{ .Paginator.Next.URL }}">{{ .Paginator.Next.PageNumber }}</a>
 				{{ if eq .Paginator.PageNumber (sub .Paginator.Last.PageNumber 1) }}
-				{{else}}
+				{{ else }}
 					<p>-</p>
 				{{ end }}
 			{{ end }}
