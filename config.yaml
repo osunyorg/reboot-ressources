@@ -3,4 +3,5 @@ title: 'Ressources Reboot'
 taxonomies:
   subject: 'subjects'
   type: 'types'
-paginate : 6
+paginate : 30
+theme: osuny-hugo-theme

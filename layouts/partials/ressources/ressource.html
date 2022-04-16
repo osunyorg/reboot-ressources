@@ -1,0 +1,19 @@
+<div class="card ressource">
+    <img  src="/assets/images/ressources/{{ .Params.image }}"
+          alt="{{ .Params.title }}"
+          loading="lazy"
+          class="img-fluid mb-3 border border-secondary">
+    <h2>
+      <a href="{{ .Permalink }}" class="stretched-link">
+        {{ .Title }}
+      </a>
+    </h2>
+    <ul class="domains custom-ul">
+      {{ range .GetTerms "types" }}
+        <li>{{ .Title }}</li>
+      {{ end }}
+      {{ range .GetTerms "subjects" }}
+        <li>{{ .Title }}</li>
+      {{ end }}
+    </ul>
+</div>

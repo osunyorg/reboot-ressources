@@ -1,0 +1,112 @@
+body
+    font-variant-ligatures: common-ligatures
+    ::selection
+        background-color: $color
+        color: black
+
+body, footer[role=contentinfo]
+    background-color: black
+
+header[role=banner]
+    .logo
+        img
+            height: 30px
+            @include media-breakpoint-down(md)
+                height: 20px
+                margin-top: -7px
+
+.menu, .dropdown-menu
+    background: black
+    li
+        span
+            color: white !important
+        a:hover
+            background-color: #222222 !important
+
+footer[role=contentinfo]
+    .logo
+        img
+            height: 100px
+    nav[role=navigation]
+        text-align: right
+
+.page__home
+    main
+        [itemprop='articleBody'] p, .top p
+            font-size: px2rem(30)
+            line-height: px2rem(45)
+    .breadcrumb
+        display: none
+
+a, a:hover
+    color: white !important
+
+.btn-light
+        color: black !important
+        &:hover
+            color: white
+            background-color: transparent
+            border:  1px solid white
+
+h2
+    font-weight: bold
+
+p
+    font-size: px2rem(20)
+    line-height: px2rem(30)
+
+
+.hero
+    background-image: url(/assets/images/illustrations/dark.svg)
+    background-position: top right
+    background-repeat: no-repeat
+    background-size: contain
+    @include media-breakpoint-down(lg)
+        background-size: 40%
+    @include media-breakpoint-down(md)
+        background-size: 70%
+        padding-top: 300px
+    @include media-breakpoint-down(sm)
+        background-size: 100%
+
+.page
+    background: none
+    .title
+        &, & .link
+            font-size: px2rem(30)
+            font-weight: bold
+    p
+        font-size: px2rem(20)
+
+.btn_green, .btn-light
+  transition: .3s ease-in-out
+
+.btn-green
+    background-color: #7FC295
+    border-color: #7FC295
+    color: #000 !important
+    &:hover
+        color:  #7FC295 !important
+        background-color: transparent
+        border: 1px solid #7FC295
+
+.cta
+    margin-bottom: 3rem
+
+.cta-label
+    font-size: px2rem(22)
+    margin-bottom: 1rem
+
+.mini-cta
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+    margin-bottom: 7rem
+    .ecole-cta,  .partenaire-cta, .annuaire-cta
+        width: 23rem
+        display: flex
+        flex-direction: column
+        margin: 1rem 0
+        a
+            display: inline-block
+            width: fit-content

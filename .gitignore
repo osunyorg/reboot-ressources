@@ -1,3 +1,10 @@
 .idea
 *.lock
-resources
+/public
+.DS_Store
+node_modules
+/.hugo_build.lock
+/.yarn
+/resources
+/_tmp
+jsconfig.json

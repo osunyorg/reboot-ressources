@@ -1,96 +1,14 @@
 {{ define "main" }}
-<main>
-  <header class="hero">
-    <div class="container">
-      <h1>{{- .Title -}}</h1>
-    </div>
-  </header>
+  {{ partial "home/hero.html" . }}
+
   <div class="container">
-    <section itemprop="articleBody">
-      <p>{{- .Description | safeHTML -}}</p>
-    </section>
+
+    {{ if (partial "GetTextFromHTML" .Content) }}
     <section>
-      <div class="tags">
-        <p>
-          Sujets
-        </p>  
-        <ul>
-          <li><a href="/subjects/communication"><small class="dot pink-dot">Communication</small></a></li>
-          <li><a href="/subjects/accessibilite"><small  class="dot yellow-dot">Accessibilité</small></a></li>
-          <li><a href="/subjects/developpement-durable"><small class="dot green-dot">Développement durable</small></a></li>
-          <li><a href="/subjects/numerique-responsable"><small class="dot blue-dot">Numérique responsable</small></a></li>
-        </ul>
-        <p>
-          Types
-        </p>
-        <ul>
-          {{ range .Site.Taxonomies.types }}
-          <li><a href="{{ .Page.Permalink }}"><small>{{ .Page.Title }}</small></a></li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="results-container">
-        <p>{{ len (where .Site.RegularPages ".Type" "ressources") }} résultats</p>
-        <div class="card-container">
-          {{- range .Paginator.Pages -}}
-          <div class="ressources-card">
-              <img src="/assets/images/ressources/{{ .Params.image }}" alt="" class="card-img">
-              <h5>{{ .Params.title }}</h5>
-              <ul class="domains custom-ul">
-                {{ range .GetTerms "types" }}
-                <li>
-                  <small>
-                    {{ .Title }}
-                  </small>
-                </li>
-                {{ end }}
-                {{ range .GetTerms "subjects" }}
-                {{ if eq .Title "Communication" }}
-                <li>
-                  <small class="dot pink-dot">
-                    {{ .Title }}
-                  </small>
-                </li>
-                {{ end }}
-                {{ if eq .Title "Accessibilité" }}
-                <li>
-                  <small class="dot yellow-dot">
-                    {{ .Title }}
-                  </small>
-                </li>
-                {{ end }}
-                {{ if eq .Title "Développement durable" }}
-                <li>
-                  <small class="dot green-dot">
-                    {{ .Title }}
-                  </small>
-                </li>
-                {{ end }}
-                {{ if eq .Title "Numérique responsable" }}
-                <li>
-                  <small class="dot blue-dot">
-                    {{ .Title }}
-                  </small>
-                </li>
-                {{ end }}
-                {{ end }}
-              </ul> 
-              <small>{{- .Params.description -}}</small>
-              <a href="{{ .Params.link }}" target="_blank" class="link-ressource">
-                {{ range .GetTerms "Types" }}
-                {{ if eq .Title "Conférence Reboot!"}}
-                Revoir le live
-                {{ else }}
-                Accéder à la ressource
-                {{end}}
-                {{ end }}
-              </a>
-          </div>
-          {{- end -}}
-        </div>
-        {{ partial "pagination"  . }}
-      </div>
+      {{- partial "PrepareHTML" .Content -}}
     </section>
+    {{ end }}
+
+    <a href="/ressources" class="btn btn-light btn-lg">Accéder aux ressources</a>
   </div>
-</main>
-{{- end -}}
+{{ end }}

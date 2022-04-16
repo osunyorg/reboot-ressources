@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ partial "pages/hero.html" . }}
+
+  <div class="container">
+    <div class="posts">
+      {{- range .Paginator.Pages -}}
+        {{- partial "ressources/ressource.html" .}}
+      {{- end -}}
+    </div>
+  {{ partial "commons/pagination.html" . }}
+  </div>
+{{ end }}
