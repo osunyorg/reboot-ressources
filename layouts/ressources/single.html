@@ -18,7 +18,7 @@
           {{ end }}
         </ul>
         <a href="{{ .Params.link }}" target="_blank" rel="noreferrer" class="btn btn-light">
-          Accéder à la ressource {{ .Title }}
+          Accéder à la ressource “{{ .Title | truncate 40}}”
         </a>
       </div>
     </div>
