@@ -1,8 +1,27 @@
+@font-face
+    font-display: swap
+    font-family: 'Aestetico Formal'
+    font-style: normal
+    font-weight: 200
+    src: url('/assets/fonts/AesteticoFormal-Thin/font.woff2') format('woff2'), url('/assets/fonts/AesteticoFormal-Thin/font.woff') format('woff')
+
+@font-face
+    font-display: swap
+    font-family: 'Aestetico Formal'
+    font-style: normal
+    font-weight: normal
+    src: url('/assets/fonts/AesteticoFormal-Light/font.woff2') format('woff2'), url('/assets/fonts/AesteticoFormal-Light/font.woff') format('woff')
+
+@font-face
+    font-display: swap
+    font-family: 'Aestetico Formal'
+    font-style: normal
+    font-weight: bold
+    src: url('/assets/fonts/AesteticoFormal-Bold/font.woff2') format('woff2'), url('/assets/fonts/AesteticoFormal-Bold/font.woff') format('woff')
+
 body
-    font-variant-ligatures: common-ligatures
     ::selection
         background-color: $color
-        color: black
 
 body, footer[role=contentinfo]
     background-color: black
@@ -14,21 +33,15 @@ header[role=banner]
             @include media-breakpoint-down(md)
                 height: 20px
                 margin-top: -7px
-
-.menu, .dropdown-menu
-    background: black
-    li
-        span
-            color: white !important
-        a:hover
-            background-color: #222222 !important
+.menu
+    background-color: black
 
 footer[role=contentinfo]
     .logo
         img
             height: 100px
     nav[role=navigation]
-        text-align: right
+        display: none
 
 .page__home
     main
@@ -38,23 +51,19 @@ footer[role=contentinfo]
     .breadcrumb
         display: none
 
-a, a:hover
-    color: white !important
-
 .btn-light
-        color: black !important
-        &:hover
-            color: white
-            background-color: transparent
-            border:  1px solid white
+    color: black !important
+    &:hover
+        background-color: transparent
+        border: 1px solid white
+        color: white !important
 
-h2
+h2, h4
     font-weight: bold
 
-p
+p, li
     font-size: px2rem(20)
     line-height: px2rem(30)
-
 
 .hero
     background-image: url(/assets/images/illustrations/dark.svg)
@@ -79,16 +88,16 @@ p
         font-size: px2rem(20)
 
 .btn_green, .btn-light
-  transition: .3s ease-in-out
+    transition: .3s ease-in-out
 
 .btn-green
-    background-color: #7FC295
-    border-color: #7FC295
-    color: #000 !important
+    background-color: $color
+    border-color: $color
+    color: #000000 !important
     &:hover
-        color:  #7FC295 !important
         background-color: transparent
-        border: 1px solid #7FC295
+        border: 1px solid $color
+        color:  $color !important
 
 .cta
     margin-bottom: 3rem
@@ -98,15 +107,33 @@ p
     margin-bottom: 1rem
 
 .mini-cta
-    display: flex;
-    flex-wrap: wrap;
+    display: flex
+    flex-wrap: wrap
     justify-content: space-between
     margin-bottom: 7rem
-    .ecole-cta,  .partenaire-cta, .annuaire-cta
-        width: 23rem
+    .ecole-cta, .partenaire-cta, .annuaire-cta
         display: flex
         flex-direction: column
         margin: 1rem 0
+        width: 23rem
         a
             display: inline-block
             width: fit-content
+
+.toc .active
+    color: $yellow
+
+.block-timeline
+    .events::before,
+    .event::before
+        background: white
+
+.block-partners
+    .media
+        img
+            margin: 0
+            object-fit: cover
+            width: 100%
+            height: auto
+    .organization
+        margin-bottom: 2rem
