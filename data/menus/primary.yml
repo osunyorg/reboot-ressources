@@ -1,4 +1,16 @@
 ---
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  children:
+  - title: Développement durable
+    target: "/ressources/sujets/developpement-durable/"
+    kind: category
+    children: []
+  - title: Communication
+    target: "/ressources/sujets/communication/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org/
   kind: url
