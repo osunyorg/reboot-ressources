@@ -7,4 +7,8 @@
   target: "/ressources/"
   kind: page
   children: []
+- title: Développement durable
+  target: "/ressources/sujets/developpement-durable/"
+  kind: category
+  children: []
 
