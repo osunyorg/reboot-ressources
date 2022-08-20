@@ -5,3 +5,5 @@ taxonomies:
   type: 'types'
 paginate : 30
 theme: osuny-hugo-theme
+cookie_banner:
+  enable: false
