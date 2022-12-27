@@ -1,0 +1,42 @@
+header#document-header
+    background-color: rgba(0, 0, 0, 0.7)
+    backdrop-filter: blur(6px)
+    .menu
+        background-color: transparent
+    .logo
+        color: white
+        font-size: 2rem
+        margin-right: 1rem
+        padding-bottom: .3125rem
+        padding-top: .3125rem
+        text-decoration: none
+        white-space: nowrap
+        display: flex
+        align-items: baseline
+        gap: 0.75rem
+        img
+            @include media-breakpoint-down(md)
+                margin-top: -7px
+        &:hover
+            color: white
+
+.hero
+    background-image: url(/assets/images/illustrations/dark.svg)
+    background-position: top right
+    background-repeat: no-repeat
+    background-size: contain
+    @include media-breakpoint-down(lg)
+        background-size: 40%
+    @include media-breakpoint-down(md)
+        background-size: 70%
+        padding-top: 300px
+    @include media-breakpoint-down(sm)
+        background-size: 100%
+    .content figure
+        display: none
+
+.post
+    .media
+        border-style: solid
+        border-width: 6px
+        border-color: #333333
