@@ -35,4 +35,8 @@
   target: https://www.rebootcommunication.org
   kind: url
   children: []
+- title: Types
+  target: ''
+  kind: blank
+  children: []
 
