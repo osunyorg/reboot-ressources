@@ -27,6 +27,10 @@
     target: "/toutes-les-ressources/domaines/medias-et-influence/"
     kind: category
     children: []
+  - title: Numérique
+    target: "/toutes-les-ressources/domaines/numerique/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
