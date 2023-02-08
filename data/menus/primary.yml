@@ -23,6 +23,10 @@
     target: "/toutes-les-ressources/domaines/marketing/"
     kind: category
     children: []
+  - title: Médias et influence
+    target: "/toutes-les-ressources/domaines/medias-et-influence/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
