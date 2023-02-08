@@ -3,4 +3,8 @@
   target: https://www.rebootcommunication.org/mentions-legales/
   kind: url
   children: []
+- title: Communication
+  target: "/toutes-les-ressources/domaines/communication/"
+  kind: category
+  children: []
 
