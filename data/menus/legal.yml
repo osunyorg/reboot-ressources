@@ -23,4 +23,8 @@
     target: "/toutes-les-ressources/domaines/rserso/"
     kind: category
     children: []
+  - title: Marketing
+    target: "/toutes-les-ressources/domaines/marketing/"
+    kind: category
+    children: []
 
