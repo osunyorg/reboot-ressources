@@ -39,6 +39,10 @@
     target: "/toutes-les-ressources/types/talk/"
     kind: category
     children: []
+  - title: Publication
+    target: "/toutes-les-ressources/types/publication/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
