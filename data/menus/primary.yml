@@ -34,7 +34,11 @@
 - title: Types
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Talk
+    target: "/toutes-les-ressources/types/talk/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
