@@ -7,6 +7,10 @@
     target: "/toutes-les-ressources/domaines/communication/"
     kind: category
     children: []
+  - title: Design et éco-conception
+    target: "/toutes-les-ressources/domaines/design-et-eco-conception/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
