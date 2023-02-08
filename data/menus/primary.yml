@@ -15,6 +15,10 @@
     target: "/toutes-les-ressources/domaines/developpement-durable/"
     kind: category
     children: []
+  - title: RSE/RSO
+    target: "/toutes-les-ressources/domaines/rserso/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
