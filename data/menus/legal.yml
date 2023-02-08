@@ -19,4 +19,8 @@
     target: "/toutes-les-ressources/domaines/developpement-durable/"
     kind: category
     children: []
+  - title: RSE/RSO
+    target: "/toutes-les-ressources/domaines/rserso/"
+    kind: category
+    children: []
 
