@@ -43,6 +43,10 @@
     target: "/toutes-les-ressources/types/publication/"
     kind: category
     children: []
+  - title: Outil
+    target: "/toutes-les-ressources/types/outil/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
