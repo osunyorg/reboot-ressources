@@ -31,12 +31,12 @@
     target: "/toutes-les-ressources/domaines/numerique/"
     kind: category
     children: []
-- title: rebootcommunication.org
-  target: https://www.rebootcommunication.org
-  kind: url
-  children: []
 - title: Types
   target: ''
   kind: blank
+  children: []
+- title: rebootcommunication.org
+  target: https://www.rebootcommunication.org
+  kind: url
   children: []
 
