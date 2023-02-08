@@ -2,7 +2,11 @@
 - title: Domaines
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Communication
+    target: "/toutes-les-ressources/domaines/communication/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
