@@ -47,6 +47,10 @@
     target: "/toutes-les-ressources/types/outil/"
     kind: category
     children: []
+  - title: MOOC
+    target: "/toutes-les-ressources/types/mooc/"
+    kind: category
+    children: []
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
   kind: url
