@@ -27,4 +27,12 @@
     target: "/toutes-les-ressources/domaines/marketing/"
     kind: category
     children: []
+  - title: Médias et influence
+    target: "/toutes-les-ressources/domaines/medias-et-influence/"
+    kind: category
+    children: []
+  - title: Numérique
+    target: "/toutes-les-ressources/domaines/numerique/"
+    kind: category
+    children: []
 
