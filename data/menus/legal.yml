@@ -3,36 +3,4 @@
   target: https://www.rebootcommunication.org/mentions-legales/
   kind: url
   children: []
-- title: Domaines
-  target: ''
-  kind: blank
-  children:
-  - title: Communication
-    target: "/toutes-les-ressources/domaines/communication/"
-    kind: category
-    children: []
-  - title: Design et éco-conception
-    target: "/toutes-les-ressources/domaines/design-et-eco-conception/"
-    kind: category
-    children: []
-  - title: Développement durable
-    target: "/toutes-les-ressources/domaines/developpement-durable/"
-    kind: category
-    children: []
-  - title: RSE/RSO
-    target: "/toutes-les-ressources/domaines/rserso/"
-    kind: category
-    children: []
-  - title: Marketing
-    target: "/toutes-les-ressources/domaines/marketing/"
-    kind: category
-    children: []
-  - title: Médias et influence
-    target: "/toutes-les-ressources/domaines/medias-et-influence/"
-    kind: category
-    children: []
-  - title: Numérique
-    target: "/toutes-les-ressources/domaines/numerique/"
-    kind: category
-    children: []
 
