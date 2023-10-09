@@ -1,7 +1,8 @@
 ---
-title: >
-  Ressources Reboot !
+title: "Ressources Reboot !"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "Ressources Reboot !"
 url: "/"
 
 full_width: true
@@ -12,13 +13,14 @@ design:
     offcanvas: true
 
 position: 1
+weight: 1
 translation_key: communication-website-page-9984fa9f-0e9b-43ce-b998-b1788321660e
 
 bodyclass: 
 
 children:
-  - /toutes-les-ressources/
-  - /organisations/
+  - "content/fr/posts/_index.html"
+  - "content/fr/organizations/_index.html"
 meta_description: >
   Les ressources de Reboot !, l'événement étudiant de la communication responsable
 description: >
@@ -31,10 +33,13 @@ description_short: >
 
 header_text: >-
   Tout pour apprendre dès aujourd’hui !
-legacy_text: >
-  <p>MOOCs, cours, guides, rapports, outils… Ces ressources vous sont proposées gratuitement par les partenaires Reboot!     Vous souhaitez voir ou revoir les Pitchs, talks, workshops et débats de l’édition Reboot! 2021 ? Retrouvez ici le programme ainsi que les rediffusions d’une série d’événements gratuits et ouverts, dédiés aux étudiant·e·s de toutes les écoles de communication, publicité, relations presse, relations publiques, influence, numérique… <br></p>
-blocks:
-  - template: posts
+contents_reading_time:
+  seconds: 10
+  text: >-
+    moins d'une minute
+contents:
+  - kind: block
+    template: posts
     title: >-
       Ressources récentes
     position: 1
@@ -54,7 +59,10 @@ blocks:
         - "2022/2022-08-22-psychologie-du-changement-faire-evoluer-ses-proches-vers-des-pratiques-decarbonees"
         - "2022/2022-08-22-le-podcast-techologie"
         - "2022/2022-08-22-big-corpo-encadrer-la-pub-et-l-influence-des-multinationales-un-imperatif-ecologique-et-democratique"
-  - template: call_to_action
+
+
+  - kind: block
+    template: call_to_action
     title: >-
       
     position: 2
@@ -63,35 +71,26 @@ blocks:
         <p>RSE/RSO, Numérique, Marketing, Médias et influence, Développement durable, Communication, Design et éco-conception : découvrez toutes les ressources libres proposées par les partenaires Reboot !</p>
 
 
-
-
       alt: >-
         
 
-
       credit: >-
         
-
 
       buttons:
         - title: >-
             Voir toutes les ressources
 
-
           url: >-
             /toutes-les-ressources/
 
-
           target_blank: false
-
 
         - title: >-
             Proposer une ressource libre
 
-
           url: >-
             https://framaforms.org/inscription-dune-organisation-partenaire-reboot-2022-1648066331
-
 
           target_blank: true
 
