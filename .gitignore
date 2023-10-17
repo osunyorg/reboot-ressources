@@ -1,5 +1,5 @@
 .idea
-*.lock
+.hugo_build.lock
 /public
 .DS_Store
 node_modules
