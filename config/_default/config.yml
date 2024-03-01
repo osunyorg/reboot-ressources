@@ -10,3 +10,5 @@ params:
   posts:
     index:
       layout: grid
+  debug:
+     productionUrl: "https://ressources.rebootcommunication.org/"
