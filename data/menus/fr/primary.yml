@@ -9,36 +9,43 @@ items:
     target: "/toutes-les-ressources/domaines/communication/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/communication"
     file: content/fr/posts_categories/domaines/communication/_index.html
   - title: Design et éco-conception
     target: "/toutes-les-ressources/domaines/design-et-eco-conception/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/design-et-eco-conception"
     file: content/fr/posts_categories/domaines/design-et-eco-conception/_index.html
   - title: Développement durable
     target: "/toutes-les-ressources/domaines/developpement-durable/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/developpement-durable"
     file: content/fr/posts_categories/domaines/developpement-durable/_index.html
   - title: RSE/RSO
     target: "/toutes-les-ressources/domaines/rserso/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/rserso"
     file: content/fr/posts_categories/domaines/rserso/_index.html
   - title: Marketing
     target: "/toutes-les-ressources/domaines/marketing/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/marketing"
     file: content/fr/posts_categories/domaines/marketing/_index.html
   - title: Médias et influence
     target: "/toutes-les-ressources/domaines/medias-et-influence/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/medias-et-influence"
     file: content/fr/posts_categories/domaines/medias-et-influence/_index.html
   - title: Numérique
     target: "/toutes-les-ressources/domaines/numerique/"
     kind: category
     children: []
+    path: "/posts_categories/domaines/numerique"
     file: content/fr/posts_categories/domaines/numerique/_index.html
 - title: Types
   target: ''
@@ -48,21 +55,25 @@ items:
     target: "/toutes-les-ressources/types/talk/"
     kind: category
     children: []
+    path: "/posts_categories/types/talk"
     file: content/fr/posts_categories/types/talk/_index.html
   - title: Publication
     target: "/toutes-les-ressources/types/publication/"
     kind: category
     children: []
+    path: "/posts_categories/types/publication"
     file: content/fr/posts_categories/types/publication/_index.html
   - title: Outil
     target: "/toutes-les-ressources/types/outil/"
     kind: category
     children: []
+    path: "/posts_categories/types/outil"
     file: content/fr/posts_categories/types/outil/_index.html
   - title: MOOC
     target: "/toutes-les-ressources/types/mooc/"
     kind: category
     children: []
+    path: "/posts_categories/types/mooc"
     file: content/fr/posts_categories/types/mooc/_index.html
 - title: rebootcommunication.org
   target: https://www.rebootcommunication.org
