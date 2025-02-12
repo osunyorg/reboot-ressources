@@ -2,6 +2,11 @@
 
 baseURL: https://ressources.rebootcommunication.org
 
+## OSUNY
+osuny:
+  website:
+    id: 64486d32-5ff4-4df3-9e5f-cd636c3840c8
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
