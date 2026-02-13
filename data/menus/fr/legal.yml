@@ -2,8 +2,10 @@
 title: Legal
 items:
 - title: Mentions légales
+  slug: mentions-legales
   target: https://www.rebootcommunication.org/mentions-legales/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
