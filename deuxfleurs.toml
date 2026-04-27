@@ -13,3 +13,336 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/mon-campus-sengage-pour-le-developpement-durable/index.html"
+to = "/toutes-les-ressources/2022-08-22-mon-campus-sengage-pour-le-developpement-durable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/engage-toi-au-sein-de-la-communaute-tech-for-good-enthusiasts/index.html"
+to = "/toutes-les-ressources/2022-08-22-engage-toi-au-sein-de-la-communaute-tech-for-good-enthusiasts/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/greenwashing-busting/index.html"
+to = "/toutes-les-ressources/2021-10-01-greenwashing-busting/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/lecole-buissonniere/index.html"
+to = "/toutes-les-ressources/2022-08-22-lecole-buissonniere/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/boulot-asso-politique-et-maintenant-je-fais-quoi/index.html"
+to = "/toutes-les-ressources/2021-10-01-boulot-asso-politique-et-maintenant-je-fais-quoi/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/economie-circulaire-et-zero-dechet-vers-un-campus-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-economie-circulaire-et-zero-dechet-vers-un-campus-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/rencontres-catalyse/index.html"
+to = "/toutes-les-ressources/2022-08-22-rencontres-catalyse/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/la-biodiversite-sur-mon-campus/index.html"
+to = "/toutes-les-ressources/2022-08-22-la-biodiversite-sur-mon-campus/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022-08-22-podcast/index.html"
+to = "/toutes-les-ressources/2022-08-22-l-octet-vert/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/qualite-et-accessibilite-du-web/index.html"
+to = "/toutes-les-ressources/2021-09-30-qualite-et-accessibilite-du-web/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-podcast-techologie/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-podcast-techologie/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/eco-design-graphique/index.html"
+to = "/toutes-les-ressources/2021-10-01-eco-design-graphique/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/outils/index.html"
+to = "/toutes-les-ressources/2022-08-22-outils/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/vers-un-plan-de-transformation-de-leconomie-francaise-en-faveur-du-climat-et-de-la-resilience-rapport-de-synthese/index.html"
+to = "/toutes-les-ressources/2022-08-22-vers-un-plan-de-transformation-de-leconomie-francaise-en-faveur-du-climat-et-de-la-resilience-rappor/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/raison-dy-croire-un-livre-audio-des-shifters/index.html"
+to = "/toutes-les-ressources/2022-08-22-raison-dy-croire-un-livre-audio-des-shifters/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022-08-22-charte-dengagement-des-associations-etudiantes-en-faveur-de-lorganisation-devenements-eco-responsables/index.html"
+to = "/toutes-les-ressources/2022-08-22-charte-dengagement-des-associations-etudiantes-en-faveur-de-lorganisation-devenements-eco-responsabl/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-site-de-la-communication-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-site-de-la-communication-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/site-de-democratie-participative/index.html"
+to = "/toutes-les-ressources/2022-08-22-site-de-democratie-participative/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/etude-de-cas-comment-promouvoir-la-livraison-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-etude-de-cas-comment-promouvoir-la-livraison-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/05/15/des-recits-et-des-actes/index.html"
+to = "/toutes-les-ressources/2022-05-15-des-recits-et-des-actes/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/guide-de-la-communication-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-guide-de-la-communication-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/communication-et-democratie/index.html"
+to = "/toutes-les-ressources/2021-10-01-communication-et-democratie/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/choisir-son-entreprise/index.html"
+to = "/toutes-les-ressources/2022-08-22-choisir-son-entreprise/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/muchas-glacias/index.html"
+to = "/toutes-les-ressources/2022-08-22-muchas-glacias/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/lancement-de-la-premiere-edition-de-reboot/index.html"
+to = "/toutes-les-ressources/2021-09-30-lancement-de-la-premiere-edition-de-reboot/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/communication-engageante-et-nudges/index.html"
+to = "/toutes-les-ressources/2021-10-01-communication-engageante-et-nudges/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/big-corpo-encadrer-la-pub-et-l-influence-des-multinationales-un-imperatif-ecologique-et-democratique/index.html"
+to = "/toutes-les-ressources/2022-08-22-big-corpo-encadrer-la-pub-et-l-influence-des-multinationales-un-imperatif-ecologique-et-democratique/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/publications/index.html"
+to = "/toutes-les-ressources/2022-08-22-publications/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/obsolescence-stimulee-et-surconsommation/index.html"
+to = "/toutes-les-ressources/2021-10-01-obsolescence-stimulee-et-surconsommation/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/dark-patterns/index.html"
+to = "/toutes-les-ressources/2021-10-01-dark-patterns/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/agences-de-communication-engagees/index.html"
+to = "/toutes-les-ressources/2021-10-01-agences-de-communication-engagees/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/conclusion-reboot-2021/index.html"
+to = "/toutes-les-ressources/2021-10-01-conclusion-reboot-2021/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/action-box/index.html"
+to = "/toutes-les-ressources/2021-09-30-action-box/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/ateliers-fresque-du-numerique/index.html"
+to = "/toutes-les-ressources/2022-08-22-ateliers-fresque-du-numerique/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/psychologie-du-changement-faire-evoluer-ses-proches-vers-des-pratiques-decarbonees/index.html"
+to = "/toutes-les-ressources/2022-08-22-psychologie-du-changement-faire-evoluer-ses-proches-vers-des-pratiques-decarbonees/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-tabou-du-numerique-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-tabou-du-numerique-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/11/04/climate-school/index.html"
+to = "/toutes-les-ressources/2022-11-04-climate-school/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/urgence-climatique/index.html"
+to = "/toutes-les-ressources/2021-09-30-urgence-climatique/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/la-boite-a-outils-nr/index.html"
+to = "/toutes-les-ressources/2022-08-22-la-boite-a-outils-nr/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/01/captologie-attention-design-persuasif/index.html"
+to = "/toutes-les-ressources/2021-09-01-captologie-attention-design-persuasif/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/objectifs-de-developpement-durable-et-medias/index.html"
+to = "/toutes-les-ressources/2021-09-30-objectifs-de-developpement-durable-et-medias/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/plan-de-transformation-de-leconomie-francaise-ptef-v0/index.html"
+to = "/toutes-les-ressources/2022-08-22-plan-de-transformation-de-leconomie-francaise-ptef-v0/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-grand-barometre/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-grand-barometre/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/sinspirer/index.html"
+to = "/toutes-les-ressources/2022-08-22-sinspirer/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/charte-dengagement-des-associations-etudiantes-en-faveur-de-lorganisation-devenements-eco-responsables/index.html"
+to = "/toutes-les-ressources/2022-08-22-charte-dengagement-des-associations-etudiantes-en-faveur-de-lorganisation-devenements-eco-responsabl/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/01/boite-a-idees/index.html"
+to = "/toutes-les-ressources/2021-09-01-boite-a-idees/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/publicite-medias-responsables-mais-pas-coupables/index.html"
+to = "/toutes-les-ressources/2021-09-30-publicite-medias-responsables-mais-pas-coupables/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/pitch-climat/index.html"
+to = "/toutes-les-ressources/2022-08-22-pitch-climat/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/nouveaux-recits/index.html"
+to = "/toutes-les-ressources/2021-10-01-nouveaux-recits/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/plus-de-rso-dans-ton-asso/index.html"
+to = "/toutes-les-ressources/2022-08-22-plus-de-rso-dans-ton-asso/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/mooc-comprendre-la-crise-ecologique-pour-reinventer-lentreprise/index.html"
+to = "/toutes-les-ressources/2022-08-22-mooc-comprendre-la-crise-ecologique-pour-reinventer-lentreprise/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/podcast/index.html"
+to = "/toutes-les-ressources/2022-08-22-l-octet-vert/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/relations-presse-influence-et-responsabilite/index.html"
+to = "/toutes-les-ressources/2021-09-30-relations-presse-influence-et-responsabilite/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/peertube/index.html"
+to = "/toutes-les-ressources/2022-08-22-peertube/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/les-projets-tech-for-good/index.html"
+to = "/toutes-les-ressources/2022-08-22-les-projets-tech-for-good/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/et-maintenant-que-font-les-entreprises/index.html"
+to = "/toutes-les-ressources/2021-09-30-et-maintenant-que-font-les-entreprises/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/dircoms-responsables/index.html"
+to = "/toutes-les-ressources/2021-09-30-dircoms-responsables/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/10/28/rapport-la-communication-commerciale-a-lere-de-la-sobriete/index.html"
+to = "/toutes-les-ressources/2022-10-28-rapport-la-communication-commerciale-a-lere-de-la-sobriete/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/01/kit-pour-une-communication-non-sexiste/index.html"
+to = "/toutes-les-ressources/2021-09-01-kit-pour-une-communication-non-sexiste/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-guide-deco-conception-de-services-numeriques/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-guide-deco-conception-de-services-numeriques/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/ateliers-fresque-du-climat/index.html"
+to = "/toutes-les-ressources/2022-08-22-ateliers-fresque-du-climat/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022-08-22-vers-un-plan-de-transformation-de-leconomie-francaise-en-faveur-du-climat-et-de-la-resilience-rapport-de-synthese/index.html"
+to = "/toutes-les-ressources/2022-08-22-vers-un-plan-de-transformation-de-leconomie-francaise-en-faveur-du-climat-et-de-la-resilience-rappor/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/ecoconception-de-sites-web/index.html"
+to = "/toutes-les-ressources/2021-10-01-ecoconception-de-sites-web/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/lalimentation-durable-sur-mon-campus/index.html"
+to = "/toutes-les-ressources/2022-08-22-lalimentation-durable-sur-mon-campus/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/plateforme-enseignement-et-transition-ecologique/index.html"
+to = "/toutes-les-ressources/2022-08-22-plateforme-enseignement-et-transition-ecologique/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/23/trouvez-un-emploi-a-impact-positif/index.html"
+to = "/toutes-les-ressources/2022-08-23-trouvez-un-emploi-a-impact-positif/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/le-sexisme-dans-la-publicite-francaise/index.html"
+to = "/toutes-les-ressources/2022-08-22-le-sexisme-dans-la-publicite-francaise/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/mooc-numerique-responsable-complet/index.html"
+to = "/toutes-les-ressources/2022-08-22-mooc-numerique-responsable-complet/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/objectifs-de-developpement-durable-odd/index.html"
+to = "/toutes-les-ressources/2022-08-22-objectifs-de-developpement-durable-odd/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/sexisme-et-publicite/index.html"
+to = "/toutes-les-ressources/2021-09-30-sexisme-et-publicite/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/innover-en-communication-responsable/index.html"
+to = "/toutes-les-ressources/2022-08-22-innover-en-communication-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/alimentation-sante-faut-voir-comme-on-nous-parle/index.html"
+to = "/toutes-les-ressources/2021-10-01-alimentation-sante-faut-voir-comme-on-nous-parle/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/mooc-sensibilisation-numerique-responsable-30min/index.html"
+to = "/toutes-les-ressources/2022-08-22-mooc-sensibilisation-numerique-responsable-30min/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/datagir/index.html"
+to = "/toutes-les-ressources/2022-08-22-datagir/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/raison-dy-croire-une-nouvelle-de-science-fiction-par-laurent-ladouari/index.html"
+to = "/toutes-les-ressources/2022-08-22-raison-dy-croire-une-nouvelle-de-science-fiction-par-laurent-ladouari/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/leconomie-du-monde-dapres/index.html"
+to = "/toutes-les-ressources/2021-10-01-leconomie-du-monde-dapres/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/la-consommation-collaborative-pour-des-campus-durables/index.html"
+to = "/toutes-les-ressources/2022-08-22-la-consommation-collaborative-pour-des-campus-durables/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/11/03/le-pouvoir-de-la-representation-progressiste-et-inclusive-dans-la-publicite/index.html"
+to = "/toutes-les-ressources/2022-11-03-le-pouvoir-de-la-representation-progressiste-et-inclusive-dans-la-publicite/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/30/fracture-numerique-et-inclusion/index.html"
+to = "/toutes-les-ressources/2021-09-30-fracture-numerique-et-inclusion/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/09/01/cours-de-communication-responsable/index.html"
+to = "/toutes-les-ressources/2021-09-01-cours-de-communication-responsable/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/mon-campus-zero-dechet/index.html"
+to = "/toutes-les-ressources/2022-08-22-mon-campus-zero-dechet/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2022/08/22/eco-responsabiliser-son-evenement/index.html"
+to = "/toutes-les-ressources/2022-08-22-eco-responsabiliser-son-evenement/"
+
+[[redirects]]
+from = "/toutes-les-ressources/2021/10/01/communication-responsable-combien-ca-gagne-ca/index.html"
+to = "/toutes-les-ressources/2021-10-01-communication-responsable-combien-ca-gagne-ca/"
+
