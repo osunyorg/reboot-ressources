@@ -199,6 +199,10 @@ from = "/toutes-les-ressources/2021/09/01/boite-a-idees/index.html"
 to = "/toutes-les-ressources/2021-09-01-boite-a-idees/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/20180319-guide-alimentation-webpdf/"
+
+[[redirects]]
 from = "/toutes-les-ressources/2021/09/30/publicite-medias-responsables-mais-pas-coupables/index.html"
 to = "/toutes-les-ressources/2021-09-30-publicite-medias-responsables-mais-pas-coupables/"
 
